@@ -20,12 +20,10 @@ author: "Anastasios (Tasos) Tsolakis"
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  About Me: "about"
   Projects: "projects"
-  Hobbies: "hobbies"
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  # Hobbies: "hobbies"
+  # Author's home: "https://ttsolakis.github.io/"
 
 ################
 # --- Logo --- #
