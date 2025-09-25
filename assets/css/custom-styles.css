@@ -1,5 +1,5 @@
 /* Make all page titles smaller */
 .page-title {
-  font-size: 1rem;   /* adjust as needed */
+  font-size: 0.5rem;   /* adjust as needed */
   margin-bottom: 0.5em;
 }
