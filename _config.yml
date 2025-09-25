@@ -10,10 +10,10 @@
 ############################
 
 # Name of website
-title: Anastasios (Tasos) Tsolakis
+title: "Anastasios (Tasos) Tsolakis"
 
 # Your name to show in the footer
-author: Anastasios (Tasos) Tsolakis
+author: "Anastasios (Tasos) Tsolakis"
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -53,14 +53,14 @@ social-network-links:
   email: "tas.tsolakis@gmail.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
   # facebook: deanattali
-  github: ttsolakis
+  # github: ttsolakis
   # twitter: daattali
   # patreon: DeanAttali
   # youtube: "@daattali"
   # whatsapp: 15551212
 #  medium: yourname
 #  reddit: yourname or r/yoursubreddit
- linkedin: daattali
+ # linkedin: daattali
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
