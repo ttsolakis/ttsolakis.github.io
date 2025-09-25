@@ -20,7 +20,7 @@ author: "Anastasios (Tasos) Tsolakis"
 ###############################################
 
 navbar-links:
-  About Me: "about"
+  About Me: "aboutme"
   Projects: "projects"
   # Hobbies: "hobbies"
   # Author's home: "https://ttsolakis.github.io/"
