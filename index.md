@@ -4,9 +4,12 @@ title: Hi, I'm Tasos
 subtitle: Robotics & Control Engineer
 ---
 
-<p style="max-width: 150ch; margin: 0 auto; text-align: center;">
-I'm <strong>Anastasios (Tasos) Tsolakis</strong>, an engineer interested in <strong>robot&nbsp;motion&nbsp;planning&nbsp;and&nbsp;control</strong>.&nbsp;🤖
+
+<p style="white-space: nowrap; text-align: center;">
+I'm <strong>Anastasios (Tasos) Tsolakis</strong>, an engineer interested in 
+<strong>robot motion planning & control</strong>. 🤖
 </p>
+
 
 <br>
 
