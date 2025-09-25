@@ -51,15 +51,21 @@ round-avatar: true
 social-network-links:
   email: "tas.tsolakis@gmail.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  # facebook: deanattali
-  # github: ttsolakis
-  # twitter: daattali
-  # patreon: DeanAttali
-  # youtube: "@daattali"
-  # whatsapp: 15551212
+  linkedin: "anastasios-tsolakis-a8a22119a"
+  google-scholar: "t7KK0FAAAAAJ"
+  github: "ttsolakis"
+
+# If you want your website to generate an RSS feed, provide a description
+# The URL for the feed will be https://<your_website>/feed.xml
+rss-description: "Updates on my research, projects, and work in robotics and control"
+
+# facebook: deanattali
+# twitter: daattali
+# patreon: DeanAttali
+# youtube: "@daattali"
+# whatsapp: 15551212
 #  medium: yourname
 #  reddit: yourname or r/yoursubreddit
- # linkedin: daattali
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -74,7 +80,6 @@ social-network-links:
 #  mastodon: instance.url/@username
 #  bluesky: yourname
 #  ORCID: your ORCID ID
-#  google-scholar: your google scholar
 #  discord: "invite_code" or "users/userid" or "invite/invite_code"
 #  kaggle: yourname
 #  hackerrank: yourname
@@ -83,25 +88,21 @@ social-network-links:
 #  untappd: yourname
 #  strava: youruserid
 
-# If you want your website to generate an RSS feed, provide a description
-# The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
-
 ###########################
 # --- General options --- #
 ###########################
 
 # Select which social network share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
-  linkedin: true
+  twitter: false
+  facebook: false
+  linkedin: false
   vk: false
   reddit: false
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+# url-pretty: "MyWebsite.com"
 
 # Add the website title to the title of every page
 title-on-all-pages: true
@@ -249,7 +250,7 @@ footer-hover-col: "#0085A1"
 ################
 
 # Ruby Date Format to show dates of posts
-date_format: "%B %-d, %Y"
+date_format: "%d-%m-%Y"
 
 # Facebook App ID
 #fb_app_id: ""
