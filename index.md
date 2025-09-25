@@ -7,7 +7,7 @@ subtitle: Robotics & Control Engineer
 
 <p style="white-space: nowrap; text-align: center;">
 I'm <strong>Anastasios (Tasos) Tsolakis</strong>, an engineer interested in 
-<strong>robot motion planning & control</strong>. 🤖
+<strong>robot motion planning and control</strong>. 🤖
 </p>
 
 
