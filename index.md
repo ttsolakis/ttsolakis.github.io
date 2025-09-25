@@ -13,7 +13,7 @@ I recently completed my <strong>PhD</strong> in <strong>Cognitive Robotics</stro
 </p>
 
 <p style="max-width: 150ch; margin: 0 auto; text-align: center;">
-I enjoy building systems that bridge rigorous theory with engineering.&nbsp;🔧
+I enjoy building systems that bridge theory with practice.&nbsp;🔧
 </p>
 
 <p style="max-width: 150ch; margin: 0 auto; text-align: center;">
