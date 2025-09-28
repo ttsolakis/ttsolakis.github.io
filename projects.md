@@ -78,27 +78,32 @@ A personal project to build a 4-wheel differential rover with full onboard auton
 
 ---
 
-## Wildfire Monitoring and Detection (FLARE)
-**UAVs · Solar Power · Autonomy · Fire Detection**  
-Concept for a solar-powered, long-endurance UAV system for early wildfire detection and continuous monitoring.  
-- Vision: persistent aerial coverage with thermal/RGB cameras and onboard autonomy.  
-- Current status: developing a Python-based wildfire simulator to study fire spread and detection strategies.  
-- Next steps: platform and payload sizing, and integration of the autonomy stack.
+## Wildfire Monitoring and Detection (FLARE)  
+**UAVs · Solar Power · Environmental Monitoring · Fire Detection**  
+A research project to develop **FLARE (Fire-Line Aerial Reconnaissance and Early Warning)**, a solar-powered, long-endurance UAV system for continuous monitoring and early wildfire detection.  
+- **Goal**: achieve >24 h endurance flights with onboard thermal/RGB cameras for persistent monitoring, early ignition detection, and fire-front tracking.  
+- **Approach**: (i) payload study and initial sizing; (ii) solar-powered autonomous glider design; (iii) autonomy stack combining distributed persistent monitoring (multi-UAV), robust path-following and control, and integrated avionics.  
+- **Status**: wildfire simulator based on cellular automata and GeoTIFF data completed; payload study and initial sizing underway.  
 
-<!-- <div class="gallery">
+<div class="gallery">
   <figure>
-    <img src="/assets/img/flare_sim_01.gif" alt="Wildfire cellular automata simulation">
-    <figcaption>Fire spread sim</figcaption>
+    <img src="/assets/img/fire_01.png" alt="Wildfire GeoTIFF data">
+    <figcaption>Wildfire GeoTIFF data</figcaption>
   </figure>
   <figure>
-    <img src="/assets/img/flare_uav_01.jpg" alt="Solar UAV concept render">
-    <figcaption>Solar UAV concept</figcaption>
+    <img src="/assets/img/fire_02.gif" alt="Wildfire cellular automata simulation">
+    <figcaption>Cellular automata simulation</figcaption>
   </figure>
   <figure>
-    <img src="/assets/img/flare_coverage_01.png" alt="Coverage planning heatmap">
-    <figcaption>Coverage planning</figcaption>
+    <img src="/assets/img/fire_03.png" alt="Feasibility study and sizing results">
+    <figcaption>Feasibility & sizing results</figcaption>
   </figure>
-</div> -->
+  <figure>
+    <img src="/assets/img/fire_04.png" alt="FLARE concept scheme">
+    <figcaption>FLARE system concept</figcaption>
+  </figure>
+</div>
+
 
 ---
 
