@@ -59,6 +59,7 @@ A personal project to build a 4-wheel differential rover with full onboard auton
 - SLAM and perception on one Raspberry Pi (pi-slam) using LiDAR–IMU–odom data.  
 - Motion planning and control on a second Raspberry Pi (pi-plan).  
 - Goal: hands-on experience in hardware/software integration with ROS2 while experimenting with autonomous navigation.
+- Status: Hardware assembled, custom 3D-printed case designed for component mounting, communication between modules set.
 
 <div class="gallery">
   <figure>
