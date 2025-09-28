@@ -137,7 +137,7 @@ PhD research on safe and resilient planning for ASVs.
 ---
 
 ## Distributed IDA-PBC for Nonholonomic Mechanical Systems  
-**Passivity-Based Control · Multi-Agent Systems · MATLAB**  
+**Passivity-Based Control · Distributed Control · Multi-Agent Systems**  
 MSc thesis extending **distributed IDA-PBC** to a broad class of **nonholonomic** mechanical systems (e.g., differential robots), demonstrating cooperative control with **heterogeneous** teams (mobile robots + manipulators).
 
 - **Methodology**: port-Hamiltonian modeling with IDA-PBC; adaptation of **Passive Configuration Decomposition (PCD)** to the Hamiltonian setting; design of a **novel (non-smooth) desired potential** enabling sequential stabilization on the constrained manifold.
@@ -166,7 +166,7 @@ MSc thesis extending **distributed IDA-PBC** to a broad class of **nonholonomic*
 
 ---
 ## Vehicle Dynamics & Torque Vectoring  
-**Control Systems · Vehicle Dynamics · Multi-Body Dynamics · Simulation**  
+**Vehicle Dynamics · Control Systems · Multi-Body Dynamics · Simulation**  
 Studied the impact of different **power distribution architectures** (FWD, RWD, AWD) on vehicle dynamics and designed a **torque-vectoring controller** to enhance handling performance.  
 - **Thesis**: *The Effect of Power Distribution Architectures and Torque Vectoring in Vehicle Dynamics*.  
 - **Methodology**: built detailed multi-body vehicle models in **Altair MotionView**; analyzed FWD, RWD, and AWD configurations.  
@@ -186,21 +186,36 @@ Studied the impact of different **power distribution architectures** (FWD, RWD, 
 
 ---
 
-## Formula Student Race Car (Team Project)
-**Mechanical Design · CAD/CAE · Teamwork**  
-Member of Aristotle Racing Team; led the tubular steel frame design, structural analysis, and manufacturing; coordinated subsystem integration and final assembly.
+## Formula Student Race Car (Team Project)  
+**Mechanical Design · CAD/CAE · Assembly · Teamwork**  
+Member of the **Aristotle Racing Team**, contributing to the design and build of a Formula Student race car that competed in three international events with **top-10 placements**.  
+- **Frame design**: led the design, structural analysis, and manufacturing of the tubular steel frame.  
+- **Integration**: coordinated subsystem integration and supported overall vehicle assembly and competition readiness.  
+- **Achievements**: successful participation in 3 international competitions.  
 
-<!-- <div class="gallery">
+<div class="gallery">
   <figure>
-    <img src="/assets/img/fs_01.jpg" alt="Tubular frame CAD">
-    <figcaption>Frame CAD</figcaption>
+    <img src="/assets/img/art_01.png" alt="Tubular frame CAD">
+    <figcaption>Frame CAD design</figcaption>
   </figure>
   <figure>
-    <img src="/assets/img/fs_02.jpg" alt="Manufacturing process photo">
-    <figcaption>Manufacturing</figcaption>
+    <img src="/assets/img/art_02.jpg" alt="Frame welding during manufacturing">
+    <figcaption>Frame welding</figcaption>
   </figure>
   <figure>
-    <img src="/assets/img/fs_03.jpg" alt="Car at competition">
-    <figcaption>Competition</figcaption>
+    <img src="/assets/img/art_03.jpg" alt="Grinding process during frame manufacturing">
+    <figcaption>Frame grinding</figcaption>
   </figure>
-</div> -->
+  <figure>
+    <img src="/assets/img/art_04.gif" alt="Vehicle testing session">
+    <figcaption>Vehicle testing</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/img/art_05.gif" alt="Autocross session in Italy">
+    <figcaption>Autocross competition (Italy)</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/img/art_06.png" alt="Aristotle Racing Team in Italy">
+    <figcaption>Aristotle Racing Team (Italy)</figcaption>
+  </figure>
+</div>
