@@ -117,12 +117,16 @@ PhD research on safe and resilient planning for ASVs.
 
 <!-- <div class="gallery">
   <figure>
-    <img src="/assets/img/asv_rules_01.gif" alt="ASV trajectory with COLREGs compliance">
-    <figcaption>Rule-compliant paths</figcaption>
+    <img src="/assets/img/idapbc_01.gif" alt="Differential robots reach desired formation">
+    <figcaption>Differential robots reach desired formation</figcaption>
   </figure>
   <figure>
     <img src="/assets/img/asv_fault_01.gif" alt="Fault-tolerant control under actuator loss">
     <figcaption>Fault-tolerant MPC</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/img/asv_sim_01.png" alt="Simulation setup with dynamic obstacles">
+    <figcaption>ROS-based sim</figcaption>
   </figure>
   <figure>
     <img src="/assets/img/asv_sim_01.png" alt="Simulation setup with dynamic obstacles">
@@ -134,28 +138,31 @@ PhD research on safe and resilient planning for ASVs.
 
 ## Distributed IDA-PBC for Nonholonomic Mechanical Systems  
 **Passivity-Based Control · Multi-Agent Systems · MATLAB**  
-MSc thesis extending **distributed IDA-PBC** to a broad class of **nonholonomic** mechanical systems (e.g., differential robots) and demonstrating cooperative control with **heterogeneous** teams (mobile robots + manipulators).
+MSc thesis extending **distributed IDA-PBC** to a broad class of **nonholonomic** mechanical systems (e.g., differential robots), demonstrating cooperative control with **heterogeneous** teams (mobile robots + manipulators).
 
-- **Methodology**: port-Hamiltonian modeling with IDA-PBC; adaptation of **Passive Configuration Decomposition (PCD)** to the Hamiltonian setting; design of a **novel (non-smooth) desired potential** enabling stabilization on the constrained manifold despite Brockett’s condition.
+- **Methodology**: port-Hamiltonian modeling with IDA-PBC; adaptation of **Passive Configuration Decomposition (PCD)** to the Hamiltonian setting; design of a **novel (non-smooth) desired potential** enabling sequential stabilization on the constrained manifold.
 - **Unified control law**: handles **heterogeneous, underactuated, and nonholonomic** agents within one distributed framework; includes **kinetic/potential energy shaping**, gyroscopic/damping terms, and feasibility via matching conditions.
 - **Collision avoidance**: integrated **Artificial Potential Fields (APF)** at low level for dynamic inter-agent avoidance within the constrained space.
 - **Results**: smooth stabilization and **faster convergence** vs. prior PBSC baseline on a differential-drive robot; **distributed consensus** achieved in simulations with mixed agents (2 differential robots + 2 manipulators).
 
-
-<!-- <div class="gallery">
+<div class="gallery">
   <figure>
-    <img src="/assets/img/idapbc_01.gif" alt="Formation control via IDA-PBC">
-    <figcaption>Formation control</figcaption>
+    <img src="/assets/img/idapbc_01.gif" alt="Differential-drive robots forming target configuration">
+    <figcaption>Formation with differential robots</figcaption>
   </figure>
   <figure>
-    <img src="/assets/img/idapbc_02.png" alt="Block diagram of interconnections">
-    <figcaption>Interconnection diagram</figcaption>
+    <img src="/assets/img/idapbc_02.gif" alt="Coordinated motion: manipulators and differential robots">
+    <figcaption>Heterogeneous coordination</figcaption>
   </figure>
   <figure>
-    <img src="/assets/img/idapbc_03.gif" alt="Tracking performance plot">
-    <figcaption>Tracking performance</figcaption>
+    <img src="/assets/img/idapbc_03.gif" alt="Trajectory comparison: proposed vs PBSC (animation)">
+    <figcaption>Proposed vs. PBSC (animation)</figcaption>
   </figure>
-</div> -->
+  <figure>
+    <img src="/assets/img/idapbc_04.png" alt="State traces comparing proposed controller with PBSC">
+    <figcaption>State comparison with PBSC</figcaption>
+  </figure>
+</div>
 
 ---
 
