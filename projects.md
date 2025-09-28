@@ -132,9 +132,15 @@ PhD research on safe and resilient planning for ASVs.
 
 ---
 
-## Distributed IDA-PBC for Nonholonomic Mechanical Systems
+## Distributed IDA-PBC for Nonholonomic Mechanical Systems  
 **Passivity-Based Control · Multi-Agent Systems · MATLAB**  
-MSc thesis: Designed a distributed Interconnection & Damping Assignment – Passivity-Based Control (IDA-PBC) algorithm for heterogeneous mechanical systems (mobile robots and manipulators).
+MSc thesis extending **distributed IDA-PBC** to a broad class of **nonholonomic** mechanical systems (e.g., differential robots) and demonstrating cooperative control with **heterogeneous** teams (mobile robots + manipulators).
+
+- **Methodology**: port-Hamiltonian modeling with IDA-PBC; adaptation of **Passive Configuration Decomposition (PCD)** to the Hamiltonian setting; design of a **novel (non-smooth) desired potential** enabling stabilization on the constrained manifold despite Brockett’s condition.
+- **Unified control law**: handles **heterogeneous, underactuated, and nonholonomic** agents within one distributed framework; includes **kinetic/potential energy shaping**, gyroscopic/damping terms, and feasibility via matching conditions.
+- **Collision avoidance**: integrated **Artificial Potential Fields (APF)** at low level for dynamic inter-agent avoidance within the constrained space.
+- **Results**: smooth stabilization and **faster convergence** vs. prior PBSC baseline on a differential-drive robot; **distributed consensus** achieved in simulations with mixed agents (2 differential robots + 2 manipulators).
+
 
 <!-- <div class="gallery">
   <figure>
