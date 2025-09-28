@@ -56,8 +56,8 @@ They span from hands-on robotics builds to research in control and autonomy.
 ## Autonomous Rover (Home Project)
 **Rover · Raspberry Pi 5 · LiDAR · IMU · Odometry · ROS2**  
 A personal project to build a 4-wheel differential rover with full onboard autonomy.  
-- SLAM and perception on one Raspberry Pi (slam-pi) using LiDAR–IMU–odometry data.  
-- Motion planning and control on a second Raspberry Pi (plan-pi).  
+- SLAM and perception on one Raspberry Pi (pi-slam) using LiDAR–IMU–odom data.  
+- Motion planning and control on a second Raspberry Pi (pi-plan).  
 - Goal: hands-on experience in hardware/software integration with ROS2 while experimenting with autonomous navigation.
 
 <div class="gallery">
