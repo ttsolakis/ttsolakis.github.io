@@ -165,25 +165,24 @@ MSc thesis extending **distributed IDA-PBC** to a broad class of **nonholonomic*
 </div>
 
 ---
+## Vehicle Dynamics & Torque Vectoring  
+**Control Systems · Vehicle Dynamics · Multi-Body Dynamics · Simulation**  
+Studied the impact of different **power distribution architectures** (FWD, RWD, AWD) on vehicle dynamics and designed a **torque-vectoring controller** to enhance handling performance.  
+- **Thesis**: *The Effect of Power Distribution Architectures and Torque Vectoring in Vehicle Dynamics*.  
+- **Methodology**: built detailed multi-body vehicle models in **Altair MotionView**; analyzed FWD, RWD, and AWD configurations.  
+- **Control design**: developed a **sliding-mode controller** in Python for Active-AWD torque vectoring, improving stability and cornering response.  
 
-## Vehicle Dynamics & Torque Vectoring
-**Control Systems · Vehicle Dynamics · Simulation**  
-Studied power distribution architectures and designed a torque-vectoring controller with multibody dynamics models and sliding-mode control.
+<div class="gallery">
+  <figure>
+    <img src="/assets/img/auth_01.png" alt="Vehicle model setup in MBD environment">
+    <figcaption>Multi-body dynamics vehicle model setup</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/img/auth_02.png" alt="Comparison across passive architectures and with torque vectoring design">
+    <figcaption>Passive architectures vs. torque-vectoring </figcaption>
+  </figure>
+</div>
 
-<!-- <div class="gallery">
-  <figure>
-    <img src="/assets/img/veh_dyn_01.png" alt="Vehicle model diagram">
-    <figcaption>Vehicle model</figcaption>
-  </figure>
-  <figure>
-    <img src="/assets/img/veh_dyn_02.gif" alt="Torque vectoring comparison across architectures">
-    <figcaption>TV comparison</figcaption>
-  </figure>
-  <figure>
-    <img src="/assets/img/veh_dyn_03.png" alt="Lateral dynamics response plot">
-    <figcaption>Lateral response</figcaption>
-  </figure>
-</div> -->
 
 ---
 
