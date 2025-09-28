@@ -54,24 +54,24 @@ They span from hands-on robotics builds to research in control and autonomy.
 ---
 
 ## Autonomous Rover (Home Project)
-**ROS2 · Raspberry Pi 5 · LiDAR · IMU · Odometry**  
+**Rover · Raspberry Pi 5 · LiDAR · IMU · Odometry · ROS2**  
 A personal project to build a 4-wheel differential rover with full onboard autonomy.  
-- SLAM and perception on one Raspberry Pi using LiDAR–IMU–odometry data.  
-- Motion planning and control on a second Raspberry Pi.  
+- SLAM and perception on one Raspberry Pi (slam-pi) using LiDAR–IMU–odometry data.  
+- Motion planning and control on a second Raspberry Pi (plan-pi).  
 - Goal: hands-on experience in hardware/software integration with ROS2 while experimenting with autonomous navigation.
 
 <div class="gallery">
   <figure>
-    <img src="/assets/img/rover_01.gif" alt="Rover driving indoors - SLAM map overlay">
-    <figcaption>Rover SLAM run</figcaption>
+    <img src="/assets/img/rover_01.jpeg" alt="Rover hardware build-up">
+    <figcaption>Rover hardware build-up</figcaption>
   </figure>
   <figure>
-    <img src="/assets/img/rover_02.jpg" alt="Rover hardware layout - dual Raspberry Pi 5">
-    <figcaption>Hardware layout</figcaption>
+    <img src="/assets/img/rover_02.gif" alt="Rover first pi-plan/ESP32 chat">
+    <figcaption>Rover first pi-plan/ESP32 chat</figcaption>
   </figure>
   <figure>
-    <img src="/assets/img/rover_03.gif" alt="Path following - MPC commands preview">
-    <figcaption>Path following</figcaption>
+    <img src="/assets/img/rover_03.gif" alt="Rover remote control play">
+    <figcaption>Rover remote control play</figcaption>
   </figure>
 </div>
 
