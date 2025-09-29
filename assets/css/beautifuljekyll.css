@@ -1124,3 +1124,45 @@ pre {
     display: inline-block;
   }
 }
+
+
+/* === Force smaller hero titles (home + pages) === */
+.intro-header .page-heading h1,
+.intro-header .post-heading h1 {
+  font-size: 2.25rem !important;
+}
+
+@media (min-width: 1200px) {
+  .intro-header .page-heading h1,
+  .intro-header .post-heading h1 {
+    font-size: 3rem !important;
+  }
+}
+
+/* Optional: also reduce the subheading under the hero title */
+.intro-header .page-heading .page-subheading,
+.intro-header .post-heading .post-subheading {
+  font-size: 1.25rem !important;
+}
+@media (min-width: 1200px) {
+  .intro-header .page-heading .page-subheading,
+  .intro-header .post-heading .post-subheading {
+    font-size: 1.375rem !important;
+  }
+}
+
+
+/* Bigger main avatar under navbar */
+.navbar-custom .avatar-container {
+  width: 7rem;      /* default was 5rem */
+  bottom: -2.5rem;  /* adjust overlap */
+}
+
+@media (min-width: 1200px) {
+  .navbar-custom.top-nav-regular .avatar-container {
+    width: 10rem;     /* default was 6.25rem */
+    bottom: -3rem;    /* adjust so it sits nicely */
+  }
+}
+
+
