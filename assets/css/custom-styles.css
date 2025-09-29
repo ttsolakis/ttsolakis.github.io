@@ -51,14 +51,14 @@
 /* Push hero titles down on all pages (no big image) */
 .intro-header .page-heading,
 .intro-header .post-heading {
-  padding-top: 5rem !important;    /* adjust vertical push */
-  padding-bottom: 2rem !important; /* breathing space below */
+  padding-top: 2.5rem !important;   /* was 5rem → now half (≈40px) */
+  padding-bottom: 1rem !important;  /* was 2rem → now half (≈16px) */
 }
 
 /* Push hero titles further on pages with big header image */
 .intro-header.big-img .page-heading,
 .intro-header.big-img .post-heading {
-  padding-top: 6rem !important;    /* slightly more push for big images */
-  padding-bottom: 3rem !important;
+  padding-top: 3rem !important;     /* was 6rem → now half (≈48px) */
+  padding-bottom: 1.5rem !important; /* was 3rem → now half (≈24px) */
 }
 
