@@ -39,7 +39,7 @@
 @media (min-width: 1200px) {
   .navbar-custom.top-nav-regular .avatar-container {
     width: 10rem !important;  /* bigger on desktop */
-    bottom: -3rem !important;
+    bottom: -6rem !important;
   }
 }
 
@@ -49,7 +49,4 @@
   width: 100% !important;
   height: auto !important;
 }
-
-/* TEMP DEBUG — outline avatar in red so we know CSS is applied */
-.navbar-custom .avatar-container { outline: 2px solid red !important; }
 
