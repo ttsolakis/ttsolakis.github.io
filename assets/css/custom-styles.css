@@ -1,24 +1,21 @@
-/* Make all page titles smaller */
+/* ===== Smaller page & hero titles ===== */
 .page-title {
   font-size: 0.5rem;   /* adjust as needed */
   margin-bottom: 0.5em;
 }
 
-
-/* ===== Force smaller hero titles (home + pages) ===== */
 .intro-header .page-heading h1,
 .intro-header .post-heading h1 {
-  font-size: 2.25rem !important; /* smaller main headline on all pages */
+  font-size: 2.25rem !important; 
 }
 
 @media (min-width: 1200px) {
   .intro-header .page-heading h1,
   .intro-header .post-heading h1 {
-    font-size: 3rem !important; /* smaller on wide screens */
+    font-size: 3rem !important;
   }
 }
 
-/* Optional: subheading under the big title */
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading {
   font-size: 1.25rem !important;
@@ -30,23 +27,27 @@
   }
 }
 
-/* ===== Make the main avatar (centered under navbar) larger ===== */
+/* ===== Larger avatar ===== */
 .navbar-custom .avatar-container {
   width: 7rem !important;     /* increase base size */
-  bottom: -2.5rem !important; /* keep overlap looking nice */
+  bottom: -4rem !important;   /* push avatar further down */
 }
 
 @media (min-width: 1200px) {
   .navbar-custom.top-nav-regular .avatar-container {
     width: 10rem !important;  /* bigger on desktop */
-    bottom: -6rem !important;
+    bottom: -6rem !important; /* consistent spacing */
   }
 }
 
-/* (Sanity) ensure the inner image scales with the container */
+/* Ensure inner avatar image scales correctly */
 .navbar-custom .avatar-container .avatar-img-border,
 .navbar-custom .avatar-container .avatar-img {
   width: 100% !important;
   height: auto !important;
 }
 
+/* ===== Push content further down ===== */
+.intro-header {
+  margin-top: 10rem !important; /* increase spacing below navbar */
+}
