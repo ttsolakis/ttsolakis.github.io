@@ -32,19 +32,10 @@ permalink: /projects/
 }
 /* responsive breakpoints */
 @media (max-width: 900px) {
-  .gallery figure { flex-basis: calc(50% - 10px); max-width: calc(50% - 10px); } /* 2 per row */
+  .gallery figure { flex-basis: calc(50% - 10px); max-width: calc(50% - 10px); }
 }
 @media (max-width: 520px) {
-  .gallery figure { flex-basis: 100%; max-width: 100%; } /* 1 per row */
-}
-.badges span {
-  display: inline-block;
-  padding: 5px 10px;
-  background-color: #f0f0f0;
-  color: #007BFF;
-  border-radius: 5px;
-  font-size: 0.8em;
-  margin: 5px 5px 0 0;
+  .gallery figure { flex-basis: 100%; max-width: 100%; }
 }
 </style>
 
@@ -53,13 +44,15 @@ They span from hands-on robotics builds to research in control and autonomy.
 
 ---
 
-## Autonomous Rover (Home Project)
+## Autonomous Rover (Home Project)  
 **Rover · Raspberry Pi 5 · LiDAR · IMU · Odometry · ROS2**  
+
 A personal project to build a 4-wheel differential rover with full onboard autonomy.  
+
 - SLAM and perception on one Raspberry Pi (pi-slam) using LiDAR–IMU–odom data.  
 - Motion planning and control on a second Raspberry Pi (pi-plan).  
-- Goal: hands-on experience in hardware/software integration with ROS2 while experimenting with autonomous navigation.
-- Status: Hardware assembled, custom 3D-printed case designed for component mounting, communication between modules set.
+- Hands-on experience in hardware/software integration with ROS2 while experimenting with autonomous navigation.  
+- Status: hardware assembled, custom 3D-printed case designed for component mounting, communication between modules set.  
 
 <div class="gallery">
   <figure>
@@ -80,10 +73,14 @@ A personal project to build a 4-wheel differential rover with full onboard auton
 
 ## Wildfire Monitoring and Detection (FLARE)  
 **UAVs · Solar Power · Environmental Monitoring · Fire Detection**  
-A research project to develop **FLARE (Fire-Line Aerial Reconnaissance and Early Warning)**, a solar-powered, long-endurance UAV system for continuous monitoring and early wildfire detection.  
-- **Goal**: achieve >24 h endurance flights with onboard thermal/RGB cameras for persistent monitoring, early ignition detection, and fire-front tracking.  
-- **Approach**: (i) payload study and initial sizing; (ii) solar-powered autonomous glider design; (iii) autonomy stack combining distributed persistent monitoring (multi-UAV), robust path-following and control, and integrated avionics.  
-- **Status**: wildfire simulator based on cellular automata and GeoTIFF data completed; payload study and initial sizing underway.  
+
+Research project to develop **FLARE (Fire-Line Aerial Reconnaissance and Early Warning)**, a solar-powered, long-endurance UAV system for continuous monitoring and early wildfire detection.  
+
+- Designed a wildfire simulator based on cellular automata and GeoTIFF vegetation maps.  
+- Conducted payload study and initial airframe sizing for >24 h endurance.  
+- Conceptual design of solar-powered autonomous glider with thermal/RGB payloads.  
+- Planned autonomy stack: distributed multi-UAV persistent monitoring, robust path-following and control, and integrated avionics.  
+- Status: simulator completed, sizing underway.  
 
 <div class="gallery">
   <figure>
@@ -104,46 +101,58 @@ A research project to develop **FLARE (Fire-Line Aerial Reconnaissance and Early
   </figure>
 </div>
 
-
 ---
 
-## Rule-Compliant & Fault-Tolerant Motion Planning for ASVs
-**MPC · Set-Membership Estimation (SME) · Reconfigurable MPC · COLREGs**  
-PhD research on safe and resilient planning for ASVs.  
-- Integrated maritime traffic rules into finite-state machines and MPC for rule-compliant navigation.  
-- Developed SME-based parameter estimation for online fault diagnosis.  
-- Designed reconfigurable/robust MPC planners to maintain safety under actuator faults and disturbances.  
-- Validated through ROS-based simulations with dynamic obstacles.
+## Rule-Compliant & Fault-Tolerant Motion Planning for ASVs  
+**MPC · Set-Membership Estimation (SME) · Reconfigurable Control · COLREGs**  
 
-<!-- <div class="gallery">
+PhD research on safe and reliable motion planning for Autonomous Surface Vessels (ASVs).  
+
+- Developed **MPC-based planners** integrating vessel dynamics, navigation objectives, and obstacle avoidance.  
+- Embedded **COLREGs maritime traffic rules** via finite-state machines combined with MPC for rule compliance.  
+- Designed an **SME-based framework for online fault detection and diagnosis**.  
+- Proposed **reconfigurable and robust MPC planners** to ensure safety under actuator faults and environmental disturbances.  
+- Validated in **ROS-based simulations** with dynamic obstacles.  
+
+<div class="gallery">
   <figure>
-    <img src="/assets/img/idapbc_01.gif" alt="Differential robots reach desired formation">
-    <figcaption>Differential robots reach desired formation</figcaption>
+    <img src="/assets/img/cor_01.gif" alt="Approach overview">
+    <figcaption>Approach overview</figcaption>
   </figure>
   <figure>
-    <img src="/assets/img/asv_fault_01.gif" alt="Fault-tolerant control under actuator loss">
-    <figcaption>Fault-tolerant MPC</figcaption>
+    <img src="/assets/img/cor_02.gif" alt="MPC for navigation">
+    <figcaption>MPC for navigation</figcaption>
   </figure>
   <figure>
-    <img src="/assets/img/asv_sim_01.png" alt="Simulation setup with dynamic obstacles">
-    <figcaption>ROS-based sim</figcaption>
+    <img src="/assets/img/cor_03.gif" alt="Rule-compliance integration">
+    <figcaption>Rule-compliance integration</figcaption>
   </figure>
   <figure>
-    <img src="/assets/img/asv_sim_01.png" alt="Simulation setup with dynamic obstacles">
-    <figcaption>ROS-based sim</figcaption>
+    <img src="/assets/img/cor_04.gif" alt="Uncertainties and faults">
+    <figcaption>Uncertainties and faults</figcaption>
   </figure>
-</div> -->
+  <figure>
+    <img src="/assets/img/cor_05.gif" alt="Fault diagnosis with SME">
+    <figcaption>Fault diagnosis with SME</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/img/cor_06.gif" alt="MPC reconfiguration and robustness to disturbances">
+    <figcaption>MPC reconfiguration and robustness</figcaption>
+  </figure>
+</div>
 
 ---
 
 ## Distributed IDA-PBC for Nonholonomic Mechanical Systems  
 **Passivity-Based Control · Distributed Control · Multi-Agent Systems**  
-MSc thesis extending **distributed IDA-PBC** to a broad class of **nonholonomic** mechanical systems (e.g., differential robots), demonstrating cooperative control with **heterogeneous** teams (mobile robots + manipulators).
 
-- **Methodology**: port-Hamiltonian modeling with IDA-PBC; adaptation of **Passive Configuration Decomposition (PCD)** to the Hamiltonian setting; design of a **novel (non-smooth) desired potential** enabling sequential stabilization on the constrained manifold.
-- **Unified control law**: handles **heterogeneous, underactuated, and nonholonomic** agents within one distributed framework; includes **kinetic/potential energy shaping**, gyroscopic/damping terms, and feasibility via matching conditions.
-- **Collision avoidance**: integrated **Artificial Potential Fields (APF)** at low level for dynamic inter-agent avoidance within the constrained space.
-- **Results**: smooth stabilization and **faster convergence** vs. prior PBSC baseline on a differential-drive robot; **distributed consensus** achieved in simulations with mixed agents (2 differential robots + 2 manipulators).
+MSc thesis extending **distributed IDA-PBC** to a broad class of **nonholonomic** mechanical systems (e.g., differential robots), demonstrating cooperative control with heterogeneous teams.  
+
+- Developed port-Hamiltonian modeling with IDA-PBC and adapted **Passive Configuration Decomposition (PCD)**.  
+- Proposed a **novel non-smooth desired potential** enabling sequential stabilization on the constrained manifold.  
+- Designed a **unified distributed control law** handling heterogeneous, underactuated, and nonholonomic agents.  
+- Integrated **Artificial Potential Fields (APF)** for dynamic inter-agent collision avoidance.  
+- Demonstrated faster convergence vs. prior PBSC baseline and successful distributed consensus in mixed-agent simulations.  
 
 <div class="gallery">
   <figure>
@@ -155,8 +164,8 @@ MSc thesis extending **distributed IDA-PBC** to a broad class of **nonholonomic*
     <figcaption>Heterogeneous coordination</figcaption>
   </figure>
   <figure>
-    <img src="/assets/img/idapbc_03.gif" alt="Trajectory comparison: proposed vs PBSC (animation)">
-    <figcaption>Proposed vs. PBSC (animation)</figcaption>
+    <img src="/assets/img/idapbc_03.gif" alt="Trajectory comparison: proposed vs PBSC">
+    <figcaption>Proposed vs. PBSC</figcaption>
   </figure>
   <figure>
     <img src="/assets/img/idapbc_04.png" alt="State traces comparing proposed controller with PBSC">
@@ -165,33 +174,38 @@ MSc thesis extending **distributed IDA-PBC** to a broad class of **nonholonomic*
 </div>
 
 ---
+
 ## Vehicle Dynamics & Torque Vectoring  
 **Vehicle Dynamics · Control Systems · Multi-Body Dynamics · Simulation**  
-Studied the impact of different **power distribution architectures** (FWD, RWD, AWD) on vehicle dynamics and designed a **torque-vectoring controller** to enhance handling performance.  
-- **Thesis**: *The Effect of Power Distribution Architectures and Torque Vectoring in Vehicle Dynamics*.  
-- **Methodology**: built detailed multi-body vehicle models in **Altair MotionView**; analyzed FWD, RWD, and AWD configurations.  
-- **Control design**: developed a **sliding-mode controller** in Python for Active-AWD torque vectoring, improving stability and cornering response.  
+
+Bachelor thesis on the effect of power distribution architectures and torque vectoring on vehicle dynamics.  
+
+- Built detailed multi-body vehicle models in **Altair MotionView**.  
+- Compared FWD, RWD, and AWD architectures.  
+- Designed a **sliding-mode controller** in Python for active-AWD torque vectoring.  
+- Demonstrated improved stability and cornering response vs. passive architectures.  
 
 <div class="gallery">
   <figure>
     <img src="/assets/img/auth_01.png" alt="Vehicle model setup in MBD environment">
-    <figcaption>Multi-body dynamics vehicle model setup</figcaption>
+    <figcaption>Multi-body dynamics vehicle model</figcaption>
   </figure>
   <figure>
-    <img src="/assets/img/auth_02.png" alt="Comparison across passive architectures and with torque vectoring design">
-    <figcaption>Passive architectures vs. torque-vectoring </figcaption>
+    <img src="/assets/img/auth_02.png" alt="Comparison across passive architectures and with torque vectoring">
+    <figcaption>Passive vs. torque vectoring</figcaption>
   </figure>
 </div>
-
 
 ---
 
 ## Formula Student Race Car (Team Project)  
 **Mechanical Design · CAD/CAE · Assembly · Teamwork**  
-Member of the **Aristotle Racing Team**, contributing to the design and build of a Formula Student race car that competed in three international events with **top-10 placements**.  
-- **Frame design**: led the design, structural analysis, and manufacturing of the tubular steel frame.  
-- **Integration**: coordinated subsystem integration and supported overall vehicle assembly and competition readiness.  
-- **Achievements**: successful participation in 3 international competitions.  
+
+Member of the **Aristotle Racing Team**, contributing to the design and build of a Formula Student race car that competed in three international events with top-10 placements.  
+
+- Led the design, structural analysis, and manufacturing of the tubular steel frame.  
+- Coordinated subsystem integration and supported vehicle assembly and testing.  
+- Achieved successful participation in 3 international competitions.  
 
 <div class="gallery">
   <figure>
@@ -212,10 +226,10 @@ Member of the **Aristotle Racing Team**, contributing to the design and build of
   </figure>
   <figure>
     <img src="/assets/img/art_05.gif" alt="Autocross session in Italy">
-    <figcaption>Autocross competition (Italy)</figcaption>
+    <figcaption>Autocross competition</figcaption>
   </figure>
   <figure>
     <img src="/assets/img/art_06.png" alt="Aristotle Racing Team in Italy">
-    <figcaption>Aristotle Racing Team (Italy)</figcaption>
+    <figcaption>Team in Italy</figcaption>
   </figure>
 </div>
