@@ -47,30 +47,18 @@
   height: auto !important;
 }
 
-/* ===== Push content further down ===== */
-.intro-header {
-  margin-top: 30rem !important; /* increase spacing below navbar */
-}
-
 
 /* Push hero titles down on all pages (no big image) */
 .intro-header .page-heading,
 .intro-header .post-heading {
-  padding-top: 5rem !important;   /* tweak to taste */
+  padding-top: 5rem !important;    /* adjust vertical push */
+  padding-bottom: 2rem !important; /* breathing space below */
 }
 
-/* Push hero titles even further on pages with big header image */
+/* Push hero titles further on pages with big header image */
 .intro-header.big-img .page-heading,
 .intro-header.big-img .post-heading {
-  padding-top: 5rem !important;  /* tweak to taste */
-}
-
-/* (Optional) add some bottom padding so the block breathes */
-.intro-header .page-heading,
-.intro-header .post-heading {
-  padding-bottom: 2rem !important;
-}
-.intro-header.big-img .page-heading,
-.intro-header.big-img .post-heading {
+  padding-top: 6rem !important;    /* slightly more push for big images */
   padding-bottom: 3rem !important;
 }
+
