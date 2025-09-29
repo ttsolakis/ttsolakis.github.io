@@ -49,3 +49,7 @@
   width: 100% !important;
   height: auto !important;
 }
+
+/* TEMP DEBUG — outline avatar in red so we know CSS is applied */
+.navbar-custom .avatar-container { outline: 2px solid red !important; }
+
