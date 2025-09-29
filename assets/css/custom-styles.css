@@ -29,8 +29,8 @@
 
 /* ===== Larger avatar ===== */
 .navbar-custom .avatar-container {
-  width: 7rem !important;     /* increase base size */
-  bottom: -4rem !important;   /* push avatar further down */
+  width: 10rem !important;     /* increase base size */
+  bottom: -7rem !important;   /* push avatar further down */
 }
 
 @media (min-width: 1200px) {
@@ -49,5 +49,5 @@
 
 /* ===== Push content further down ===== */
 .intro-header {
-  margin-top: 10rem !important; /* increase spacing below navbar */
+  margin-top: 20rem !important; /* increase spacing below navbar */
 }
