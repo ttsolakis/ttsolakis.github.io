@@ -1,64 +1,42 @@
-/* ===== Smaller page & hero titles ===== */
-.page-title {
-  font-size: 0.5rem;   /* adjust as needed */
-  margin-bottom: 0.5em;
+
+/* Add top margin to the <body> tag */
+body {
+  display: block; /* Make sure it's block-level so margin-top has an effect */
+  margin-top: 16rem; /* Adjust value as needed to create space */
 }
 
-.intro-header .page-heading h1,
-.intro-header .post-heading h1 {
-  font-size: 2.25rem !important; 
-}
-
-@media (min-width: 1200px) {
-  .intro-header .page-heading h1,
-  .intro-header .post-heading h1 {
-    font-size: 3rem !important;
-  }
-}
-
-.intro-header .page-heading .page-subheading,
-.intro-header .post-heading .post-subheading {
-  font-size: 1.25rem !important;
-}
-@media (min-width: 1200px) {
-  .intro-header .page-heading .page-subheading,
-  .intro-header .post-heading .post-subheading {
-    font-size: 1.375rem !important;
-  }
-}
-
-/* ===== Larger avatar ===== */
 .navbar-custom .avatar-container {
-  width: 10rem !important;     /* increase base size */
-  bottom: -7rem !important;   /* push avatar further down */
+  position: absolute;
+  left: 50%;
+  width: 12.5rem;
+  bottom: -9rem;
+  transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
 }
 
+/* Make main image larger */
 @media (min-width: 1200px) {
   .navbar-custom.top-nav-regular .avatar-container {
-    width: 10rem !important;  /* bigger on desktop */
-    bottom: -6rem !important; /* consistent spacing */
+    width: 12.5rem;
+    bottom: -9rem;
   }
+
+/* Make shadow main image larger */
+  .navbar-custom.top-nav-regular .avatar-container .avatar-img-border {
+    width: 100%;
+    {% unless site.round-avatar == false %}
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, .8);
+    {% endunless %}
+  }
+
+  /* .navbar-custom.top-nav-regular .avatar-container .avatar-img {
+    width: 100%;
+  }
+} */
+/* Make font title smaller */
+.intro-header .page-heading h1 {
+  font-size: 4rem;
 }
-
-/* Ensure inner avatar image scales correctly */
-.navbar-custom .avatar-container .avatar-img-border,
-.navbar-custom .avatar-container .avatar-img {
-  width: 100% !important;
-  height: auto !important;
-}
-
-
-/* Push hero titles down on all pages (no big image) */
-.intro-header .page-heading,
-.intro-header .post-heading {
-  padding-top: 5rem !important;   /* was 5rem → now half (≈40px) */
-  padding-bottom: 1rem !important;  /* was 2rem → now half (≈16px) */
-}
-
-/* Push hero titles further on pages with big header image */
-.intro-header.big-img .page-heading,
-.intro-header.big-img .post-heading {
-  padding-top: 5rem !important;     /* was 6rem → now half (≈48px) */
-  padding-bottom: 1.5rem !important; /* was 3rem → now half (≈24px) */
-}
-
