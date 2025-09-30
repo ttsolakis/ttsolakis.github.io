@@ -12,3 +12,7 @@ This path led me to a PhD in **Cognitive Robotics** at TU Delft, focusing on saf
 In my free time, I look for ways to explore and experience the world. From hiking and climbing in the mountains to sailing or scuba diving at sea, I am drawn to the outdoors for the sense of adventure and perspective it brings. I also enjoy long motorbike trips, which combine exploration with the freedom of the open road. For me, these activities are more than hobbies — they are ways to challenge myself, share moments with others, and keep learning from the world around me.
 
 My ambition is to contribute to technologies that make the world a bit better, step by step.
+
+<p style="max-width: 150ch; margin: 0 auto; text-align: center;">
+👉 Εxplore my <a href="/projects">projects</a>.
+</p>
