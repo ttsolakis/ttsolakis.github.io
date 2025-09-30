@@ -43,7 +43,7 @@ Here’s a selection of my projects, ordered from most recent to earlier work.
 They span from hands-on robotics builds to research in control and autonomy.
 
 <p style="max-width: 150ch; margin: 0 auto; text-align: center;">
-Learn more <a href="/aboutme">about me</a>.
+👉 Learn more <a href="/aboutme">about me</a>.
 </p>
 
 
