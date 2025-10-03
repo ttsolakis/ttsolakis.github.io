@@ -40,3 +40,77 @@ body {
 .intro-header .page-heading h1 {
   font-size: 4rem;
 }
+
+
+
+/* ===== Vertical Timeline ===== */
+.timeline {
+  position: relative;
+  margin: 2rem 0 2rem 1.5rem; /* left space for the rail */
+  padding: 0;
+  list-style: none;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 0.5rem; /* rail position */
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--tl-rail, #cbd5e1);
+  opacity: 0.9;
+}
+
+.timeline-item {
+  position: relative;
+  margin: 0 0 2rem 1.5rem; /* indent content from rail */
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -1.05rem; /* center dot on rail */
+  top: 0.25rem;   /* align with date line */
+  width: 12px;
+  height: 12px;
+  background: var(--tl-dot, #334155);
+  border: 3px solid var(--tl-dot-ring, #ffffff);
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px var(--tl-rail, #cbd5e1);
+}
+
+.timeline-date {
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+  color: var(--tl-date, #0f172a);
+}
+
+.timeline-content {
+  background: var(--tl-bg, #ffffff);
+  border: 1px solid var(--tl-border, #e5e7eb);
+  border-radius: 10px;
+  padding: 0.9rem 1rem;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+  color: var(--tl-text, inherit);
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --tl-rail: #334155;
+    --tl-dot: #e2e8f0;
+    --tl-dot-ring: #0b1220;
+    --tl-date: #e2e8f0;
+    --tl-bg: #0b1220;
+    --tl-border: #1f2937;
+    --tl-text: #e5e7eb;
+  }
+}
+
+/* Mobile spacing */
+@media (max-width: 640px) {
+  .timeline { margin-left: 1.25rem; }
+  .timeline-item { margin-left: 1.25rem; }
+}
+
