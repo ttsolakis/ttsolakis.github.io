@@ -18,4 +18,8 @@ My ambition is to contribute to technologies that make the world a bit better, s
 👉 Εxplore my <a href="/projects">projects</a>.
 </p>
 
+<p style="max-width: 150ch; margin: 2rem auto; text-align: center;">
+📄 View my <a href="/assets/docs/CV.pdf" target="_blank">CV</a>
+</p>
+
 
