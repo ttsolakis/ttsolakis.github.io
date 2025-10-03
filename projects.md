@@ -69,10 +69,10 @@ A personal project to build a 4-wheel differential rover with full onboard auton
     <img src="/assets/img/rover_02.gif" alt="Rover first pi-plan/ESP32 chat">
     <figcaption>Rover first pi-plan/ESP32 chat</figcaption>
   </figure>
-  <figure>
+  <!-- <figure>
     <img src="/assets/img/rover_03.gif" alt="Rover remote control play">
     <figcaption>Rover remote control play</figcaption>
-  </figure>
+  </figure> -->
   <figure>
     <img src="/assets/img/rover_04.gif" alt="Rover SLAM WIP">
     <figcaption>Rover SLAM WIP</figcaption>
