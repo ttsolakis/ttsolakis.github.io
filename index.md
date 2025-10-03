@@ -24,5 +24,5 @@ I enjoy building systems that bridge theory with practice.&nbsp;
 <div style="margin-top: 0.5em;"></div> 
 
 <p style="max-width: 150ch; margin: 0 auto; text-align: center;">
-👉Learn more <a href="/aboutme">about me</a> or explore my <a href="/projects">projects</a>.
+👉 Learn more <a href="/aboutme">about me</a> or explore my <a href="/projects">projects</a>.
 </p>
