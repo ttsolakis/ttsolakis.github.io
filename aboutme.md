@@ -3,7 +3,7 @@ layout: page
 title: About Me
 permalink: /about/
 ---
-<!--
+
 My path into robotics began during my studies in **Mechanical Engineering** at the Aristotle University of Thessaloniki, where I became fascinated by the dynamics and control of mechanical systems. As a member of the Formula Student team, I helped design and build a competitive race car, gaining first-hand experience in combining theory, engineering practice, and teamwork to solve real-world challenges.  
 
 To deepen my knowledge, I pursued a Master’s in **Systems and Control** at TU Delft, specializing in advanced control theory and multi-agent systems. My thesis on distributed passivity-based control introduced me to international and interdisciplinary collaboration, where I enjoyed turning theoretical concepts into functioning algorithms.  
@@ -17,19 +17,5 @@ My ambition is to contribute to technologies that make the world a bit better, s
 <p style="max-width: 150ch; margin: 0 auto; text-align: center;">
 👉 Εxplore my <a href="/projects">projects</a>.
 </p>
--->
 
-<ul class="timeline">
-{% for item in site.data.timeline %}
-  <li class="timeline-item">
-    <div class="timeline-date">{{ item.date }}</div>
-    <div class="timeline-content">
-      {{ item.html | markdownify }}
-    </div>
-  </li>
-{% endfor %}
-</ul>
 
-<p style="max-width: 150ch; margin: 0 auto; text-align: center;">
-👉 Εxplore my <a href="/projects">projects</a>.
-</p>
