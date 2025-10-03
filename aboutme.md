@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Me
-permalink: /about/
+permalink: /aboutme/
 ---
 
 My path into robotics began during my studies in **Mechanical Engineering** at the Aristotle University of Thessaloniki, where I became fascinated by the dynamics and control of mechanical systems. As a member of the Formula Student team, I helped design and build a competitive race car, gaining first-hand experience in combining theory, engineering practice, and teamwork to solve real-world challenges.  
