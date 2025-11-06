@@ -123,7 +123,7 @@ PhD research on safe and reliable motion planning for Autonomous Surface Vessels
 - Designed an **SME-based framework for online fault detection and diagnosis**.  
 - Proposed **reconfigurable and robust MPC planners** to ensure safety under actuator faults and environmental disturbances.  
 - Validated in **ROS-based simulations** with dynamic obstacles.
-📄 View my <a href="/assets/data/Tsolakis-PhD-Thesis.pdf" target="_blank">Thesis</a>
+- 📄 View my <a href="/assets/data/Tsolakis-PhD-Thesis.pdf" target="_blank">Thesis</a>
   
 <div class="gallery">
   <figure>
@@ -164,7 +164,7 @@ MSc thesis extending **distributed IDA-PBC** to a broad class of **nonholonomic*
 - Designed a **unified distributed control law** handling heterogeneous, underactuated, and nonholonomic agents.  
 - Integrated **Artificial Potential Fields (APF)** for dynamic inter-agent collision avoidance.  
 - Demonstrated faster convergence vs. prior PBSC baseline and successful distributed consensus in mixed-agent simulations.
-📄 View my <a href="/assets/data/Tsolakis-Master-Thesis.pdf" target="_blank">Thesis</a>  
+- 📄 View my <a href="/assets/data/Tsolakis-Master-Thesis.pdf" target="_blank">Thesis</a>  
 
 <div class="gallery">
   <figure>
@@ -195,8 +195,8 @@ Bachelor thesis on the effect of power distribution architectures and torque vec
 - Built detailed multi-body vehicle models in **Altair MotionView**.  
 - Compared FWD, RWD, and AWD architectures.  
 - Designed a **sliding-mode controller** in Python for active-AWD torque vectoring.  
-- Demonstrated improved stability and cornering response vs. passive architectures.  
-📄 View my <a href="/assets/data/Tsolakis-Diploma-Thesis.pdf" target="_blank">Thesis</a>
+- Demonstrated improved stability and cornering response vs. passive architectures.
+- 📄 View my <a href="/assets/data/Tsolakis-Diploma-Thesis.pdf" target="_blank">Thesis</a>
 
 <div class="gallery">
   <figure>
