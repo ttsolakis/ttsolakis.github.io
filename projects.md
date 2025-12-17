@@ -53,32 +53,31 @@ They span from hands-on robotics builds to research in control and autonomy.
 
 A personal research project to design a **real-time nonlinear MPC framework** for autonomous navigation, with a strong focus on computational efficiency, modularity, and embedded deployment.
 
-- Symbolic definition of nonlinear MPC problems (dynamics, constraints, objectives), written as with pen and paper.
-- Automatic reformulation into a **Linear Time-Varying QP (LTV-QP)** with Cython-accelerated evaluation.
-- Real-time QP solution using OSQP with explicit time limits, guaranteeing control-loop feasibility.
-- Clean separation between **problem definition** and **MPC execution**, enabling rapid switching between systems.
-- Integrated nonlinear simulator with plotting and animation for fast prototyping and debugging.
+- Symbolic definition of nonlinear MPC problems (dynamics, constraints, objectives).
+- Automatic reformulation into an LTV-QP with Cython-accelerated evaluation.
+- Real-time QP solution using OSQP, guaranteeing control-loop feasibility.
+- Integrated simulator with plotting and animation for fast prototyping.
 - Designed with embedded and robotic applications in mind (UGVs, UAVs, USVs).
 
 Current status:
-- End-to-end examples working (simple pendulum, double pendulum, kinematic rover).
+- End-to-end examples working (simple pendulum, double pendulum, rover).
 - Collision avoidance constraints under active development.
-- Intended as the MPC backbone for the **Autonomous Rover** and **FLARE** projects.
+- Intended as the planner backbone for the **Autonomous Rover** and **FLARE** projects.
 
 **Repository:** https://github.com/ttsolakis/nav_mpc
 
 <div class="gallery">
   <figure>
     <img src="/assets/img/mpc_01.gif " alt="Simple pendulum swing-up and stabilization">
-    <figcaption>Simple pendulum swing-up and stabilization </figcaption>
+    <figcaption>Simple pendulum swing-up and stabilization (avg control cycle: 1.29 ms) </figcaption>
   </figure>
   <figure>
     <img src="/assets/img/mpc_02.gif" alt="Double pendulum swing-up and stabilization">
-    <figcaption>Double pendulum swing-up and stabilization</figcaption>
+    <figcaption>Double pendulum swing-up and stabilization (avg control cycle: 1.45 ms) </figcaption>
   </figure>
   <figure>
     <img src="/assets/img/mpc_03.gif" alt="Simple rover set-point tracking">
-    <figcaption>Simple rover set-point tracking</figcaption>
+    <figcaption>Simple rover set-point tracking (avg control cycle: 1.14 ms) </figcaption>
   </figure>
 </div>
 
