@@ -77,7 +77,7 @@ Current status:
   </figure>
   <figure>
     <img src="/assets/img/mpc_03.gif" alt="Simple rover set-point tracking">
-    <figcaption>Simple rover set-point tracking (avg control cycle: 1.14 ms) </figcaption>
+    <figcaption>Simple rover set-point tracking (avg control cycle: 4.24 ms) </figcaption>
   </figure>
 </div>
 
