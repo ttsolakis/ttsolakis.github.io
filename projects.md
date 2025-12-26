@@ -79,7 +79,6 @@ Current status:
     <img src="/assets/img/mpc_03.gif" alt="Simple rover set-point tracking">
     <figcaption>Simple rover set-point tracking (avg control cycle: 4.24 ms) </figcaption>
   </figure>
-  </figure>
   <figure>
     <img src="/assets/img/mpc_04.gif" alt="Global path and path following">
     <figcaption>Global path (rrt* offline), lidar simulation, and path following with nav_mpc (avg control cycle: 3.24 ms) </figcaption>
@@ -96,7 +95,9 @@ A personal project to build a 4-wheel differential rover with full onboard auton
 - SLAM and perception on one Raspberry Pi (pi-slam) using LiDAR–IMU–odom data.  
 - Motion planning and control on a second Raspberry Pi (pi-plan).  
 - Hands-on experience in hardware/software integration with ROS2 while experimenting with autonomous navigation.  
-- Status: hardware assembled, custom 3D-printed case designed for component mounting, communication between modules set.  
+- Status: hardware assembled, custom 3D-printed case designed for component mounting, communication between modules set.
+
+**Repository:** [rover_odom](https://github.com/ttsolakis/rover_odom)
 
 <div class="gallery">
   <figure>
@@ -128,8 +129,10 @@ Research project to develop **FLARE (Fire-Line Aerial Reconnaissance and Early W
 - Conducted payload study and initial airframe sizing for >24 h endurance.  
 - Conceptual design of solar-powered autonomous glider with thermal/RGB payloads.  
 - Planned autonomy stack: distributed multi-UAV persistent monitoring, robust path-following and control, and integrated avionics.  
-- Status: simulator completed, sizing underway.  
+- Status: simulator completed, sizing underway.
 
+**Repositories:** [wildfire_surveillance](https://github.com/ttsolakis/wildfire_surveillance) [fire_simulator](https://github.com/ttsolakis/fire_simulator)
+ 
 <div class="gallery">
   <figure>
     <img src="/assets/img/fire_01.png" alt="Wildfire GeoTIFF data">
