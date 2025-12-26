@@ -64,7 +64,7 @@ Current status:
 - Collision avoidance constraints under active development.
 - Intended as the planner backbone for the **Autonomous Rover** and **FLARE** projects.
 
-**Repository:** https://github.com/ttsolakis/nav_mpc
+**Repository:** [nav_mpc](https://github.com/ttsolakis/nav_mpc)
 
 <div class="gallery">
   <figure>
@@ -78,6 +78,11 @@ Current status:
   <figure>
     <img src="/assets/img/mpc_03.gif" alt="Simple rover set-point tracking">
     <figcaption>Simple rover set-point tracking (avg control cycle: 4.24 ms) </figcaption>
+  </figure>
+  </figure>
+  <figure>
+    <img src="/assets/img/mpc_04.gif" alt="Global path and path following">
+    <figcaption>Global path (rrt* offline), lidar simulation, and path following with nav_mpc (avg control cycle: 3.24 ms) </figcaption>
   </figure>
 </div>
 
