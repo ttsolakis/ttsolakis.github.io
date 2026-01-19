@@ -81,7 +81,7 @@ Current status:
   </figure>
   <figure>
     <img src="/assets/img/mpc_04.gif" alt="Global path and path following">
-    <figcaption>Global path (rrt* offline), lidar simulation, and path following with nav_mpc (avg control cycle: 3.24 ms) </figcaption>
+    <figcaption>Simple rover path following with half-space corridor constraints (avg control cycle: 6.21 ms) </figcaption>
   </figure>
 </div>
 
