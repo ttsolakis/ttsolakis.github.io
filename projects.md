@@ -61,8 +61,8 @@ A personal research project to design a **real-time nonlinear MPC framework** fo
 
 Current status:
 - End-to-end examples working (simple pendulum, double pendulum, rover).
-- Collision avoidance constraints under active development.
 - Intended as the planner backbone for the **Autonomous Rover** and **FLARE** projects.
+- Implemented ROS2 wrapper.
 
 **Repository:** [nav_mpc](https://github.com/ttsolakis/nav_mpc)
 
