@@ -83,6 +83,10 @@ Current status:
     <img src="/assets/img/mpc_04.gif" alt="Global path and path following">
     <figcaption>Simple rover path following with half-space corridor constraints (avg control cycle: 6.21 ms) </figcaption>
   </figure>
+  <figure>
+    <img src="/assets/img/nav_mpc_ros.gif" alt="ROS2-wrapper for nav_mpc with RVIZ visualization.">
+    <figcaption>ROS2-wrapper for nav_mpc with RVIZ visualization. </figcaption>
+  </figure>
 </div>
 
 ---
