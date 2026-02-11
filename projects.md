@@ -84,8 +84,12 @@ Current status:
     <figcaption>Simple rover path following with half-space corridor constraints (avg control cycle: 6.21 ms) </figcaption>
   </figure>
   <figure>
-    <img src="/assets/img/nav_mpc_ros.gif" alt="ROS2-wrapper for nav_mpc with RVIZ visualization.">
+    <img src="/assets/img/nav_mpc_ros.gif" alt="ROS2-wrapper for nav_mpc with RVIZ visualization">
     <figcaption>ROS2-wrapper for nav_mpc with RVIZ visualization. </figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/img/mpc_05.gif" alt="Cybership (ASV model) path following">
+    <figcaption>Cybership model (ASV) path following with half-space corridor constraints (avg control cycle: 4.32 ms) </figcaption>
   </figure>
 </div>
 
@@ -134,6 +138,7 @@ Research project to develop **FLARE (Fire-Line Aerial Reconnaissance and Early W
 - Conceptual design of solar-powered autonomous glider with thermal/RGB payloads.  
 - Planned autonomy stack: distributed multi-UAV persistent monitoring, robust path-following and control, and integrated avionics.  
 - Status: simulator completed, sizing underway.
+- Evaluated in MSCA Postdoctoral Fellowship (Sep 2025) — proposal scored 82%. 
 
 **Repositories:** [wildfire_surveillance](https://github.com/ttsolakis/wildfire_surveillance) [fire_simulator](https://github.com/ttsolakis/fire_simulator)
  
