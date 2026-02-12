@@ -60,9 +60,10 @@ A personal research project to design a **real-time nonlinear MPC framework** fo
 - Designed with embedded and robotic applications in mind (UGVs, UAVs, USVs).
 
 Current status:
-- End-to-end examples working (simple pendulum, double pendulum, rover).
+- End-to-end examples working (double pendulum, rover (UGV), cybership (ASV)).
 - Intended as the planner backbone for the **Autonomous Rover** and **FLARE** projects.
 - Implemented ROS2 wrapper.
+- Extending to other platforms (ground, marine, aerial).
 
 **Repository:** [nav_mpc](https://github.com/ttsolakis/nav_mpc)
 
